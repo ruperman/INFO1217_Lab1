@@ -1,0 +1,118 @@
+
+body {
+    font: 18px/1.7 Georgia, "Times New Roman", serif;
+    padding: 50px 150px;  /* top/bottom left/right */
+    text-align: justify;
+    color: black;
+    background: url(ruby_back.jpg);
+    background-repeat: repeat-y;
+    background-position: left top;
+}
+
+h1 {
+    font-family: "Times New Roman",sans-serif;
+    color: #58243a;
+    font-size: 80px;
+    font-weight: normal;
+    text-shadow: 2px 2px 3px #ddd; /* horizontal, vertical, blur, color*/
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: normal;
+    margin-right: 25px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #58243a;
+    font-weight: bold;
+}
+
+section img {
+    float: right;
+    margin-right: 35px;
+    margin-left: 20px;
+    border: 3px solid #0c0b0b;
+}
+
+div span {
+    color: #58243a;
+}
+
+.color{
+    font-weight: 800;
+    font-style: italic;
+}
+
+section {
+    float: left;
+    width: 100%;
+    margin-right: 5%;
+}
+
+aside {
+    float: left;
+    width: 23%;
+    margin-top: 15px;
+}
+
+aside p {
+    background-color: #a25c3a;
+    color: #fff;
+    padding: 2%;
+    font: 8px/1.4 Georgia, 'Times New Roman', serif;
+}
+
+.separator {
+    border: 2px solid #0c0b0b;
+    margin: 20px 0;
+}
+
+footer {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 14px;
+    text-align: left;
+ 
+    bottom: 0;
+    left: 0;
+ 
+    background-color: #f8f8f8; /* Add a background color for better visibility */
+    padding: 20px;
+}
+
+#email{
+    color: #58243a;
+}
+
+#span{
+    color: #58243a;
+}
+
+#left{
+    float: left;
+    width: 200px;
+}
+
+#right{
+    float: right;
+    width: 200px;
+}
+
+#content{
+    margin-left: 220px;
+    margin-right: 220px;
+}
